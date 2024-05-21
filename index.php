@@ -12,7 +12,7 @@
     <title>Metodo AES</title>
 </head>
 
-<body class=" bg-info-subtle">
+<body class="bg-success-subtle">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-lg-6">
             <form method="post" class="p-5">
