@@ -21,7 +21,7 @@
             <form method="post" class="p-5">
                 <div class="d-flex justify-content-center">
                     <div class="col-sm-12 col-md-12 col-lg-12 mt-0">
-                        <div class="shadow bg-white container text-center rounded p-5">
+                        <div class="shadow bg-white container text-center rounded p-5 text-wrap">
                             <label for="mensajeCifrar" class="fw-lighter fs-4">Mensaje a cifrar:</label><br>
                             <input type="text" id="mensajeCifrar" name="mensajeCifrar" class="form-control contorno" required><br><br>
                             <label for="llaveCifrar" class="fw-lighter fs-4">Llave:</label><br>
@@ -42,7 +42,7 @@
             <form method="post" class="p-5">
                 <div class="d-flex justify-content-center">
                     <div class="col-sm-12 col-md-12 col-lg-12 mt-0">
-                        <div class="shadow bg-white container text-center rounded p-5">
+                        <div class="shadow bg-white container text-center rounded p-5 text-wrap">
                             <label for="mensajeDescifrar"class="fw-lighter fs-4">Mensaje a descifrar:</label><br>
                             <input type="text" id="mensajeDescifrar" name="mensajeDescifrar" class="form-control contorno" required><br><br>
                             <label for="llaveDescifrar"class="fw-lighter fs-4">Llave:</label><br>

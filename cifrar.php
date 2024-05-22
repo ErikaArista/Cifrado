@@ -28,13 +28,13 @@
     
                 if ($llaveCifrar === $llave_correcta) {
                     echo 
-                    "<div>
-                        <span class='fw-lighter fs-5'> Mensaje a cifrar: </span>
+                    "<div class='text-wrap'>
+                        <span class='fw-lighter fs-5 '> Mensaje a cifrar: </span>
                     </div>".htmlspecialchars($mensajeCifrar);
 
                     $mensajeCifrado = cifrar($mensajeCifrar, $llaveCifrar);
 
-                    echo  "<div class='mt-3'>
+                    echo  "<div class='text-wrap mt-3'>
                     <span class='fw-lighter fs-5'> Mensaje cifrado: </span>
                     </div>" . htmlspecialchars($mensajeCifrado). "<br>";
                     
@@ -53,13 +53,13 @@
                 if ($llaveDescifrar === $llave_correcta) {
 
                     echo 
-                    "<div>
+                    "<div class='text-wrap'>
                         <span class='fw-lighter fs-5'> Mensaje cifrado: </span>
                     </div>".htmlspecialchars($mensajeDescifrar);
                     
                     $mensajeDescifrado = descifrar($mensajeDescifrar, $llaveDescifrar);
 
-                    echo  "<div class='mt-3'>
+                    echo  "<div class='text-wrap mt-3'>
                     <span class='fw-lighter fs-5 '> Mensaje descifrado: </span>
                     </div>" . htmlspecialchars($mensajeDescifrado). "<br>";
                 } else {
